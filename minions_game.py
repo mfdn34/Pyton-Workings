@@ -52,4 +52,5 @@ for i in range(len(wordlist)):
 #print("Kevin :", len(kevin))
 
 if len(stuart)>len(kevin) : print("Stuart ", len(stuart))  
-else : print("Kevin ", len(kevin))
+elif len(stuart)<len(kevin) : print("Kevin ", len(kevin))
+else : print("Draw")
